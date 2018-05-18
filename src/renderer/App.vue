@@ -1,7 +1,6 @@
-<template>
-  <div id="app">
-    <router-view></router-view>
-  </div>
+<template lang="pug">
+  #app
+    router-view
 </template>
 
 <script>
@@ -11,5 +10,15 @@
 </script>
 
 <style>
-  /* CSS */
+  @import '~bootstrap/dist/css/bootstrap.css';
+  @import '~bootstrap-vue/dist/bootstrap-vue.css';
+
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+
+  #app {
+    height: 100%;
+  }
 </style>
